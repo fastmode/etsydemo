@@ -16,6 +16,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem "paperclip", "~> 5.0.0"
+gem 'aws-sdk', '~> 2.6.43'
 
 group :production do
   gem 'rails_12factor'
