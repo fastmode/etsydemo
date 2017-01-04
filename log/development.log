@@ -2452,3 +2452,12 @@ Processing by ListingsController#index as HTML
 Completed 200 OK in 48ms (Views: 45.4ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/pages/about" for ::1 at 2017-01-04 07:12:28 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 37ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
