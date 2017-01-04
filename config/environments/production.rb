@@ -94,4 +94,7 @@ Rails.application.configure do
       s3_region: ENV.fetch('AWS_REGION'),
     }
   }
+  
+  #Required for Devise.  Remember to change localhost:3000 to actual application host.
+  config.action_mailer.default_url_options = { host: 'https://etsydemo-fastmode.herokuapp.com' }
 end
