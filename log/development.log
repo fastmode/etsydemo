@@ -1,0 +1,2414 @@
+Started GET "/" for ::1 at 2017-01-03 21:06:55 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/admin/.rvm/gems/ruby-2.3.3/gems/railties-5.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/admin/.rvm/gems/ruby-2.3.3/gems/railties-5.0.1/lib/rails/templates/rails/welcome/index.html.erb (7.4ms)
+Completed 200 OK in 43ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 21:08:48 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/admin/.rvm/gems/ruby-2.3.3/gems/railties-5.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/admin/.rvm/gems/ruby-2.3.3/gems/railties-5.0.1/lib/rails/templates/rails/welcome/index.html.erb (7.1ms)
+Completed 200 OK in 36ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 21:08:56 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1206ms (Views: 1203.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2017-01-03 21:09:04 -0500
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 30ms (Views: 27.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2017-01-03 21:10:40 -0500
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 46ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2017-01-03 21:11:56 -0500
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 41ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 21:12:00 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 56ms (Views: 53.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 21:14:18 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 32ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 21:14:20 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 59ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2017-01-03 21:14:21 -0500
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 48ms (Views: 43.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 21:14:22 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 57ms (Views: 52.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2017-01-03 21:14:22 -0500
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 82ms (Views: 80.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 21:14:23 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 33ms (Views: 29.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2017-01-03 21:14:23 -0500
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 61ms (Views: 57.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 21:14:24 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 33ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2017-01-03 21:14:24 -0500
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 58ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 21:14:24 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 36ms (Views: 33.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 21:14:25 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 30ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 21:14:25 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 59ms (Views: 56.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2017-01-03 21:14:26 -0500
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 40ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2017-01-03 21:14:26 -0500
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 68ms (Views: 65.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2017-01-03 21:14:26 -0500
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 45ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2017-01-03 21:14:26 -0500
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 47ms (Views: 44.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 21:14:27 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 45ms (Views: 41.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 21:14:27 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 69ms (Views: 63.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 21:15:37 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 36ms (Views: 34.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 21:15:38 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 51ms (Views: 48.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2017-01-03 21:15:38 -0500
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 70ms (Views: 66.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2017-01-03 21:15:39 -0500
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 47ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 21:15:39 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 44ms (Views: 41.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 21:15:40 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 32ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2017-01-03 21:15:40 -0500
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 57ms (Views: 52.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2017-01-03 21:15:40 -0500
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 33ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2017-01-03 21:15:40 -0500
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 34ms (Views: 32.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 21:15:41 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 34ms (Views: 31.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 21:16:08 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 32ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2017-01-03 21:16:10 -0500
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 59ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 21:16:10 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 44ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2017-01-03 21:16:11 -0500
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 36ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 21:16:12 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 62ms (Views: 57.4ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateListings (20170104021809)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "listings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "description" text, "price" decimal, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170104021809"]]
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", 2017-01-04 02:19:07 UTC], ["updated_at", 2017-01-04 02:19:07 UTC]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/listings/new" for ::1 at 2017-01-03 21:19:43 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ListingsController#new as HTML
+  Rendering listings/new.html.erb within layouts/application
+  Rendered listings/_form.html.erb (61.5ms)
+  Rendered listings/new.html.erb within layouts/application (64.8ms)
+Completed 200 OK in 1648ms (Views: 1621.1ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/listings" for ::1 at 2017-01-03 21:20:27 -0500
+Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2v0CSqrREmPK7PnKmeGaz80n4mZuaQnvm9/fWLeKdZvNdl4NSpwp7V9wJxRh/w2xtQBNMZIHqa7NN9q/67oK5w==", "listing"=>{"name"=>"Test Listing", "description"=>"This is just a test.", "price"=>"1.00"}, "commit"=>"Create Listing"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "listings" ("name", "description", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Test Listing"], ["description", "This is just a test."], ["price", #<BigDecimal:7febc9c56b30,'0.1E1',9(18)>], ["created_at", 2017-01-04 02:20:27 UTC], ["updated_at", 2017-01-04 02:20:27 UTC]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/listings/1
+Completed 302 Found in 9ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/listings/1" for ::1 at 2017-01-03 21:20:27 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mListing Load (0.5ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 48ms (Views: 33.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-03 21:20:29 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.5ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 85ms (Views: 78.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/listings/1/edit" for ::1 at 2017-01-03 21:20:34 -0500
+Processing by ListingsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering listings/edit.html.erb within layouts/application
+  Rendered listings/_form.html.erb (5.9ms)
+  Rendered listings/edit.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 65ms (Views: 59.7ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/listings/1" for ::1 at 2017-01-03 21:20:41 -0500
+Processing by ListingsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DHXT1IlXD0kLzF3BWr3dyhlQE0giqt7Rgs6yDQ63aowtn9d0onfhN7Quo0o8OUL1gVyUmNTC7wUAmmgBIvGLvg==", "listing"=>{"name"=>"Test Listing", "description"=>"This is just a test. Let's add a revision.", "price"=>"1.0"}, "commit"=>"Update Listing", "id"=>"1"}
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "listings" SET "description" = ?, "updated_at" = ? WHERE "listings"."id" = ?[0m  [["description", "This is just a test. Let's add a revision."], ["updated_at", 2017-01-04 02:20:41 UTC], ["id", 1]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/listings/1
+Completed 302 Found in 9ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/listings/1" for ::1 at 2017-01-03 21:20:41 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 50ms (Views: 46.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-03 21:20:43 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 44ms (Views: 38.7ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/listings/1" for ::1 at 2017-01-03 21:20:47 -0500
+Processing by ListingsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"lKoCEJ+uFujQGETxSHXEEmZQ75sNg83nBXhcpmMZl96DIV5Xf+MtZkWEmi+wa1NsHndAzPHtbaZTkFlBPynoog==", "id"=>"1"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[31mDELETE FROM "listings" WHERE "listings"."id" = ?[0m  [["id", 1]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/listings
+Completed 302 Found in 7ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-03 21:20:47 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 39ms (Views: 36.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/listings/new" for ::1 at 2017-01-03 21:20:59 -0500
+Processing by ListingsController#new as HTML
+  Rendering listings/new.html.erb within layouts/application
+  Rendered listings/_form.html.erb (4.1ms)
+  Rendered listings/new.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 40ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/listings" for ::1 at 2017-01-03 21:23:36 -0500
+Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"z+QimW4VC4UIHPwq+8FDzaWajfJBYU3jVM9g/4Bn5ACxzc/7g2uzos4dE6erOdKROxCdNPXlh1XjWMGodoKLUQ==", "listing"=>{"name"=>"Horse Hair Tassels", "description"=>"Unique, durable and fashionable horse hair tassels!\r\nThis 'Zebra' style has a cool tribal feel. Finished with antiqued brass findings and hematite, shell and black glass beads mimic the colors and pattern in the tassels.\r\nTassel Length= 10 cm\r\n(Tassles can be trimmed to desired length)", "price"=>"24.99"}, "commit"=>"Create Listing"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "listings" ("name", "description", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Horse Hair Tassels"], ["description", "Unique, durable and fashionable horse hair tassels!\r\nThis 'Zebra' style has a cool tribal feel. Finished with antiqued brass findings and hematite, shell and black glass beads mimic the colors and pattern in the tassels.\r\nTassel Length= 10 cm\r\n(Tassles can be trimmed to desired length)"], ["price", #<BigDecimal:7febcf060e10,'0.2499E2',18(18)>], ["created_at", 2017-01-04 02:23:36 UTC], ["updated_at", 2017-01-04 02:23:36 UTC]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/listings/2
+Completed 302 Found in 29ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/listings/2" for ::1 at 2017-01-03 21:23:36 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 68ms (Views: 59.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-03 21:23:40 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 31ms (Views: 27.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/listings/new" for ::1 at 2017-01-03 21:24:25 -0500
+Processing by ListingsController#new as HTML
+  Rendering listings/new.html.erb within layouts/application
+  Rendered listings/_form.html.erb (2.2ms)
+  Rendered listings/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 34ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/listings" for ::1 at 2017-01-03 21:24:45 -0500
+Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dkrwiGyUuAn+Ef5ZZoJRbn20Bb0i6IBN+temb3hxg98IYx3qgeoALjgQEdQ2esAy4z4Ve5ZsSvtNQAc4jpTsjg==", "listing"=>{"name"=>"Loko Bird Print", "description"=>"A bird print named Rene\r\n\r\nImage size: 8x10\"\r\nProfessionally printed onto 8.5\" x 11\" Semi Gloss Paper\r\nWeight: 270g/m2", "price"=>"15.50"}, "commit"=>"Create Listing"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "listings" ("name", "description", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Loko Bird Print"], ["description", "A bird print named Rene\r\n\r\nImage size: 8x10\"\r\nProfessionally printed onto 8.5\" x 11\" Semi Gloss Paper\r\nWeight: 270g/m2"], ["price", #<BigDecimal:7febcce35980,'0.155E2',18(18)>], ["created_at", 2017-01-04 02:24:45 UTC], ["updated_at", 2017-01-04 02:24:45 UTC]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/listings/3
+Completed 302 Found in 5ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/listings/3" for ::1 at 2017-01-03 21:24:45 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 24ms (Views: 21.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-03 21:25:59 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 47ms (Views: 43.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings/new" for ::1 at 2017-01-03 21:26:01 -0500
+Processing by ListingsController#new as HTML
+  Rendering listings/new.html.erb within layouts/application
+  Rendered listings/_form.html.erb (3.4ms)
+  Rendered listings/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 33ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/listings" for ::1 at 2017-01-03 21:26:25 -0500
+Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZMmz3V7r9gSIz/MKCBP/X8Qzl1ErepGx6Kud3ZLOdoka4F6/s5VOI07OHIdY624DWrmHl5/+WwdfPDyKZCsZ2A==", "listing"=>{"name"=>"iPad 2 Wool Sleeve", "description"=>"Made with superb quality and craftsmanship this handmade sleeve is a classy and elegant way to protect and carry your iPad. With a large single pocket to hold your iPad, it is a perfect companion for a weekend business trip or a great getaway. The outside of the sleeve is 80% wool/ 20% polyester blend with natural leather accents.", "price"=>"50.00"}, "commit"=>"Create Listing"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "listings" ("name", "description", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "iPad 2 Wool Sleeve"], ["description", "Made with superb quality and craftsmanship this handmade sleeve is a classy and elegant way to protect and carry your iPad. With a large single pocket to hold your iPad, it is a perfect companion for a weekend business trip or a great getaway. The outside of the sleeve is 80% wool/ 20% polyester blend with natural leather accents."], ["price", #<BigDecimal:7febc8dfd390,'0.5E2',9(18)>], ["created_at", 2017-01-04 02:26:25 UTC], ["updated_at", 2017-01-04 02:26:25 UTC]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/listings/4
+Completed 302 Found in 7ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/listings/4" for ::1 at 2017-01-03 21:26:25 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 30ms (Views: 25.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-03 21:26:28 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 28ms (Views: 24.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings/new" for ::1 at 2017-01-03 21:27:30 -0500
+Processing by ListingsController#new as HTML
+  Rendering listings/new.html.erb within layouts/application
+  Rendered listings/_form.html.erb (3.6ms)
+  Rendered listings/new.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 49ms (Views: 45.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/listings" for ::1 at 2017-01-03 21:27:59 -0500
+Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"85T8nLMgtLFTZ+dBNByYWIzThqfrZLoi220RZerAMIiNvRH+Xl4MlpVmCMxk5AkEElmWYV/gcJRs+rAyHCVf2Q==", "listing"=>{"name"=>"So True Necklace", "description"=>"What's \"so true\" about you? Your heart? Your love? Your dreams? This necklace celebrates you and what makes you special!", "price"=>"25.99"}, "commit"=>"Create Listing"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "listings" ("name", "description", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "So True Necklace"], ["description", "What's \"so true\" about you? Your heart? Your love? Your dreams? This necklace celebrates you and what makes you special!"], ["price", #<BigDecimal:7febc920e808,'0.2599E2',18(18)>], ["created_at", 2017-01-04 02:27:59 UTC], ["updated_at", 2017-01-04 02:27:59 UTC]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/listings/5
+Completed 302 Found in 6ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/listings/5" for ::1 at 2017-01-03 21:27:59 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 38ms (Views: 33.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-03 21:28:24 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 33ms (Views: 29.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings/new" for ::1 at 2017-01-03 21:28:25 -0500
+Processing by ListingsController#new as HTML
+  Rendering listings/new.html.erb within layouts/application
+  Rendered listings/_form.html.erb (2.6ms)
+  Rendered listings/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 44ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/listings" for ::1 at 2017-01-03 21:28:48 -0500
+Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Zw/fapL6fjq8yadA+Re+DWWUKwznAB+1yWyAhieqr8EZJjIIf4TGHXrISM2p7y9R+x47ylOE1QN++yHR0U/AkA==", "listing"=>{"name"=>"Green Bamboo Wall Clock", "description"=>"Green bamboo laminate on MDF with shaped cutout pattern backed in white MDF.\r\nDimensions: 10\" dia. x 1.25\"", "price"=>"59.95"}, "commit"=>"Create Listing"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "listings" ("name", "description", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Green Bamboo Wall Clock"], ["description", "Green bamboo laminate on MDF with shaped cutout pattern backed in white MDF.\r\nDimensions: 10\" dia. x 1.25\""], ["price", #<BigDecimal:7febcdc93d38,'0.5995E2',18(18)>], ["created_at", 2017-01-04 02:28:48 UTC], ["updated_at", 2017-01-04 02:28:48 UTC]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/listings/6
+Completed 302 Found in 7ms (ActiveRecord: 2.6ms)
+
+
+Started GET "/listings/6" for ::1 at 2017-01-03 21:28:48 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 26ms (Views: 24.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-03 21:28:54 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 28ms (Views: 24.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 21:31:57 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 53ms (Views: 42.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 21:35:14 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.4ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (20.2ms)
+Completed 200 OK in 437ms (Views: 418.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 21:45:03 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (15.3ms)
+Started GET "/" for ::1 at 2017-01-03 21:45:07 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 7565ms (Views: 7549.9ms | ActiveRecord: 0.7ms)
+
+
+Completed 200 OK in 3617ms (Views: 3614.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 21:46:27 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 52ms (Views: 49.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 21:47:13 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 64ms (Views: 59.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 21:47:39 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.4ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 57ms (Views: 54.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 21:48:29 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 44ms (Views: 41.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 21:48:54 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 57ms (Views: 54.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 21:49:29 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 47ms (Views: 43.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 21:49:30 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 78ms (Views: 75.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2017-01-03 21:49:31 -0500
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 58ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2017-01-03 21:49:32 -0500
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 53ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2017-01-03 21:49:33 -0500
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 71ms (Views: 68.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2017-01-03 21:49:33 -0500
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 82ms (Views: 78.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2017-01-03 21:49:34 -0500
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 74ms (Views: 69.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 21:49:34 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 102ms (Views: 96.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 21:49:35 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 63ms (Views: 59.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 21:49:36 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 100ms (Views: 96.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 21:49:37 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 102ms (Views: 98.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 21:49:38 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 102ms (Views: 99.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2017-01-03 21:49:38 -0500
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 119ms (Views: 117.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2017-01-03 21:49:39 -0500
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 76ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2017-01-03 21:49:51 -0500
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 96ms (Views: 93.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 21:49:52 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 110ms (Views: 107.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 21:49:53 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 96ms (Views: 89.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2017-01-03 21:49:54 -0500
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 104ms (Views: 100.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 21:49:54 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 110ms (Views: 106.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 21:51:24 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 39ms (Views: 37.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 21:51:40 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 68ms (Views: 66.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 21:51:51 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 62ms (Views: 60.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 21:52:24 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 72ms (Views: 70.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 21:52:30 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 182ms (Views: 178.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 21:52:34 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 68ms (Views: 64.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2017-01-03 21:52:35 -0500
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 68ms (Views: 64.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 21:52:36 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 359ms (Views: 344.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 21:55:59 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 83ms (Views: 80.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 21:55:59 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 99ms (Views: 96.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 21:56:00 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 72ms (Views: 66.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 21:56:01 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 84ms (Views: 78.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/contact" for ::1 at 2017-01-03 21:56:02 -0500
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 113ms (Views: 110.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 21:56:02 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 85ms (Views: 83.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 21:56:10 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 42ms (Views: 39.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 21:56:15 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 86ms (Views: 82.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 21:57:08 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 69ms (Views: 67.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 21:57:09 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 67ms (Views: 65.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 21:57:10 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 45ms (Views: 43.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 21:57:10 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 70ms (Views: 68.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 21:57:10 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 37ms (Views: 34.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 21:57:11 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 43ms (Views: 40.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 21:57:11 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 77ms (Views: 75.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 21:57:11 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 40ms (Views: 37.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 21:57:12 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 54ms (Views: 42.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 21:57:13 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 572ms (Views: 565.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/listings/2/edit" for ::1 at 2017-01-03 21:57:37 -0500
+Processing by ListingsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering listings/edit.html.erb within layouts/application
+  Rendered listings/_form.html.erb (68.1ms)
+  Rendered listings/edit.html.erb within layouts/application (71.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 184ms (Views: 162.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/listings/2/edit" for ::1 at 2017-01-03 22:00:58 -0500
+Processing by ListingsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mListing Load (0.4ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering listings/edit.html.erb within layouts/application
+  Rendered listings/_form.html.erb (3.5ms)
+  Rendered listings/edit.html.erb within layouts/application (6.7ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 50ms (Views: 44.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/listings/2/edit" for ::1 at 2017-01-03 22:01:51 -0500
+Processing by ListingsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering listings/edit.html.erb within layouts/application
+  Rendered listings/_form.html.erb (2.7ms)
+  Rendered listings/edit.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 46ms (Views: 41.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings/2/edit" for ::1 at 2017-01-03 22:01:52 -0500
+Processing by ListingsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering listings/edit.html.erb within layouts/application
+  Rendered listings/_form.html.erb (3.3ms)
+  Rendered listings/edit.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 46ms (Views: 43.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings/2/edit" for ::1 at 2017-01-03 22:01:53 -0500
+Processing by ListingsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering listings/edit.html.erb within layouts/application
+  Rendered listings/_form.html.erb (3.0ms)
+  Rendered listings/edit.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 77ms (Views: 74.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/listings/2/edit" for ::1 at 2017-01-03 22:03:04 -0500
+Processing by ListingsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering listings/edit.html.erb within layouts/application
+  Rendered listings/_form.html.erb (2.9ms)
+  Rendered listings/edit.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 56ms (Views: 52.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings/2/edit" for ::1 at 2017-01-03 22:04:11 -0500
+Processing by ListingsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering listings/edit.html.erb within layouts/application
+  Rendered listings/edit.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.1ms)
+
+
+  
+SyntaxError (/Users/admin/etsydemo/app/views/listings/edit.html.erb:5: syntax error, unexpected '='
+...ink_to 'Show', @listing, class="btn btn-link" );@output_buff...
+...                               ^
+/Users/admin/etsydemo/app/views/listings/edit.html.erb:6: syntax error, unexpected '='
+...o 'Back', listings_path, class="btn btn-link" );@output_buff...
+...                               ^):
+  
+app/views/listings/edit.html.erb:5: syntax error, unexpected '='
+app/views/listings/edit.html.erb:6: syntax error, unexpected '='
+  Rendering /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.7ms)
+  Rendering /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (104.2ms)
+Started GET "/listings/2/edit" for ::1 at 2017-01-03 22:04:41 -0500
+Processing by ListingsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering listings/edit.html.erb within layouts/application
+  Rendered listings/_form.html.erb (2.5ms)
+  Rendered listings/edit.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 44ms (Views: 39.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 22:04:44 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 47ms (Views: 41.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 22:04:45 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 69ms (Views: 67.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/listings/2/edit" for ::1 at 2017-01-03 22:06:34 -0500
+Processing by ListingsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mListing Load (0.4ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering listings/edit.html.erb within layouts/application
+  Rendered listings/_form.html.erb (2.6ms)
+  Rendered listings/edit.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 56ms (Views: 50.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-03 22:07:41 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 61ms (Views: 52.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-03 22:08:34 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 62ms (Views: 59.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings/2" for ::1 at 2017-01-03 22:08:42 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mListing Load (3.1ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 73ms (Views: 65.1ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/listings/2" for ::1 at 2017-01-03 22:09:00 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 61ms (Views: 58.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 22:09:03 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 63ms (Views: 57.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings/new" for ::1 at 2017-01-03 22:09:04 -0500
+Processing by ListingsController#new as HTML
+  Rendering listings/new.html.erb within layouts/application
+  Rendered listings/_form.html.erb (4.1ms)
+  Rendered listings/new.html.erb within layouts/application (6.8ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 100ms (Views: 95.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/listings/new" for ::1 at 2017-01-03 22:09:24 -0500
+Processing by ListingsController#new as HTML
+  Rendering listings/new.html.erb within layouts/application
+  Rendered listings/_form.html.erb (2.9ms)
+  Rendered listings/new.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 60ms (Views: 56.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-03 22:09:30 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 60ms (Views: 57.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings/2/edit" for ::1 at 2017-01-03 22:09:32 -0500
+Processing by ListingsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering listings/edit.html.erb within layouts/application
+  Rendered listings/_form.html.erb (3.1ms)
+  Rendered listings/edit.html.erb within layouts/application (6.3ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 69ms (Views: 64.2ms | ActiveRecord: 0.1ms)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddAttachmentImageToListings (20170104032510)
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+DEPRECATION WARNING: Directly inheriting from ActiveRecord::Migration is deprecated. Please specify the Rails release the migration was written for:
+
+  class AddAttachmentImageToListings < ActiveRecord::Migration[4.2] (called from load at /Users/admin/.rvm/gems/ruby-2.3.3/bin/rake:22)
+  [1m[35m (2.3ms)[0m  [1m[35mALTER TABLE "listings" ADD "image_file_name" varchar[0m
+  [1m[35m (4.2ms)[0m  [1m[35mALTER TABLE "listings" ADD "image_content_type" varchar[0m
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "listings" ADD "image_file_size" integer[0m
+  [1m[35m (0.1ms)[0m  [1m[35mALTER TABLE "listings" ADD "image_updated_at" datetime[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170104032510"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for ::1 at 2017-01-03 22:31:45 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.6ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (40.5ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 1141ms (Views: 1110.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/listings/new" for ::1 at 2017-01-03 22:31:49 -0500
+Processing by ListingsController#new as HTML
+  Rendering listings/new.html.erb within layouts/application
+  Rendered listings/_form.html.erb (65.3ms)
+  Rendered listings/new.html.erb within layouts/application (68.5ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 160ms (Views: 155.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-03 22:31:53 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (6.4ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 92ms (Views: 88.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-03 22:33:47 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (1.0ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 62ms (Views: 59.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/listings/new" for ::1 at 2017-01-03 22:33:48 -0500
+Processing by ListingsController#new as HTML
+  Rendering listings/new.html.erb within layouts/application
+  Rendered listings/_form.html.erb (8.4ms)
+  Rendered listings/new.html.erb within layouts/application (10.5ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 111ms (Views: 103.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-03 22:33:54 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (4.8ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 71ms (Views: 61.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/listings/2/edit" for ::1 at 2017-01-03 22:34:00 -0500
+Processing by ListingsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering listings/edit.html.erb within layouts/application
+  Rendered listings/_form.html.erb (4.1ms)
+  Rendered listings/edit.html.erb within layouts/application (9.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 76ms (Views: 56.7ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/listings/2" for ::1 at 2017-01-03 22:34:22 -0500
+Processing by ListingsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6eaeAbkx6KoU/vpYQYJhGaQ+wHaKNgG3+32uZK4AeBn3l1VLzl2CgegwrT3Dep6tUSLHai+Sg6U/2BUdNpH84Q==", "listing"=>{"name"=>"Horse Hair Tassels", "description"=>"Unique, durable and fashionable horse hair tassels!\r\nThis 'Zebra' style has a cool tribal feel. Finished with antiqued brass findings and hematite, shell and black glass beads mimic the colors and pattern in the tassels.\r\nTassel Length= 10 cm\r\n(Tassles can be trimmed to desired length)", "price"=>"24.99", "image"=>#<ActionDispatch::Http::UploadedFile:0x007fa6a1d4aea0 @tempfile=#<Tempfile:/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/RackMultipart20170103-83759-1tdo0ua.jpg>, @original_filename="hair_tassles.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"listing[image]\"; filename=\"hair_tassles.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Listing", "id"=>"2"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.3ms)
+
+
+  
+Paperclip::Errors::MissingRequiredValidatorError (Paperclip::Errors::MissingRequiredValidatorError):
+  
+app/controllers/listings_controller.rb:44:in `block in update'
+app/controllers/listings_controller.rb:43:in `update'
+  Rendering /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (82.3ms)
+Started GET "/listings" for ::1 at 2017-01-03 22:36:20 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 43ms (Views: 40.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-03 22:36:22 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.4ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 67ms (Views: 63.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/listings/2/edit" for ::1 at 2017-01-03 22:36:24 -0500
+Processing by ListingsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering listings/edit.html.erb within layouts/application
+  Rendered listings/_form.html.erb (4.4ms)
+  Rendered listings/edit.html.erb within layouts/application (7.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 45ms (Views: 42.8ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/listings/2" for ::1 at 2017-01-03 22:36:31 -0500
+Processing by ListingsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+BjYX3kYOzUs65+eJVrYLJTCWnMtglnxuzeSrVAxnyLmaRMVDnRRHtAlyPunoieYYd5db4gm2+N/kinUyKAb2g==", "listing"=>{"name"=>"Horse Hair Tassels", "description"=>"Unique, durable and fashionable horse hair tassels!\r\nThis 'Zebra' style has a cool tribal feel. Finished with antiqued brass findings and hematite, shell and black glass beads mimic the colors and pattern in the tassels.\r\nTassel Length= 10 cm\r\n(Tassles can be trimmed to desired length)", "price"=>"24.99", "image"=>#<ActionDispatch::Http::UploadedFile:0x007fa6a79e0b10 @tempfile=#<Tempfile:/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/RackMultipart20170103-83759-1mdufdn.jpg>, @original_filename="hair_tassles.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"listing[image]\"; filename=\"hair_tassles.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Listing", "id"=>"2"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.3ms)
+
+
+  
+Paperclip::Errors::MissingRequiredValidatorError (Paperclip::Errors::MissingRequiredValidatorError):
+  
+app/controllers/listings_controller.rb:44:in `block in update'
+app/controllers/listings_controller.rb:43:in `update'
+  Rendering /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.3ms)
+  Rendering /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (66.3ms)
+Started GET "/" for ::1 at 2017-01-03 22:38:30 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (8.4ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 41ms (Views: 35.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 22:38:32 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 38ms (Views: 35.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/listings/2/edit" for ::1 at 2017-01-03 22:38:33 -0500
+Processing by ListingsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering listings/edit.html.erb within layouts/application
+  Rendered listings/_form.html.erb (3.9ms)
+  Rendered listings/edit.html.erb within layouts/application (6.6ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 65ms (Views: 60.7ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/listings/2" for ::1 at 2017-01-03 22:38:42 -0500
+Processing by ListingsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VNil7vSBlwNlw61ycDOI1blWdDG+uUccfkNzsbCzXhRKqW6kg+39KJkN+hfyy3dhTEpzLRsdxQ665sjIKCLa7A==", "listing"=>{"name"=>"Horse Hair Tassels", "description"=>"Unique, durable and fashionable horse hair tassels!\r\nThis 'Zebra' style has a cool tribal feel. Finished with antiqued brass findings and hematite, shell and black glass beads mimic the colors and pattern in the tassels.\r\nTassel Length= 10 cm\r\n(Tassles can be trimmed to desired length)", "price"=>"24.99", "image"=>#<ActionDispatch::Http::UploadedFile:0x007fa6a4a779c8 @tempfile=#<Tempfile:/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/RackMultipart20170103-83759-6kulbq.jpg>, @original_filename="hair_tassles.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"listing[image]\"; filename=\"hair_tassles.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Listing", "id"=>"2"}
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Command :: file -b --mime '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/98163a446f59eb56626bdf3399c648fc20170103-83759-evs0fp.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/98163a446f59eb56626bdf3399c648fc20170103-83759-g1x2sp.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/98163a446f59eb56626bdf3399c648fc20170103-83759-g1x2sp.jpg[0]'
+Command :: convert '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/98163a446f59eb56626bdf3399c648fc20170103-83759-g1x2sp.jpg[0]' -auto-orient -resize "200" '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/b3bdb30cf96242b21fad20200978169a20170103-83759-1cu2wlr'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/98163a446f59eb56626bdf3399c648fc20170103-83759-g1x2sp.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/98163a446f59eb56626bdf3399c648fc20170103-83759-g1x2sp.jpg[0]'
+Command :: convert '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/98163a446f59eb56626bdf3399c648fc20170103-83759-g1x2sp.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/b3bdb30cf96242b21fad20200978169a20170103-83759-2e7w0z'
+Command :: file -b --mime '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/98163a446f59eb56626bdf3399c648fc20170103-83759-1h01f46.jpg'
+  [1m[35mSQL (0.7ms)[0m  [1m[33mUPDATE "listings" SET "image_file_name" = ?, "image_content_type" = ?, "image_file_size" = ?, "image_updated_at" = ?, "updated_at" = ? WHERE "listings"."id" = ?[0m  [["image_file_name", "hair_tassles.jpg"], ["image_content_type", "image/jpeg"], ["image_file_size", 339679], ["image_updated_at", 2017-01-04 03:38:42 UTC], ["updated_at", 2017-01-04 03:38:42 UTC], ["id", 2]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/listings/2
+Completed 302 Found in 349ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/listings/2" for ::1 at 2017-01-03 22:38:42 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 43ms (Views: 38.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings/2" for ::1 at 2017-01-03 22:40:54 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 51ms (Views: 48.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-03 22:41:06 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 61ms (Views: 57.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-03 22:42:58 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 42ms (Views: 40.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings/4/edit" for ::1 at 2017-01-03 22:43:48 -0500
+Processing by ListingsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering listings/edit.html.erb within layouts/application
+  Rendered listings/_form.html.erb (4.8ms)
+  Rendered listings/edit.html.erb within layouts/application (8.4ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 69ms (Views: 62.6ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/listings/4" for ::1 at 2017-01-03 22:43:55 -0500
+Processing by ListingsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xXnPI15u2cVNdEC1Vn1HXxetTkRHgAyz9ImK3mYjCgPkZ51Rot1SHV61THl5n5o8szbiU6x0RqKLqtzdLPfGRQ==", "listing"=>{"name"=>"iPad 2 Wool Sleeve", "description"=>"Made with superb quality and craftsmanship this handmade sleeve is a classy and elegant way to protect and carry your iPad. With a large single pocket to hold your iPad, it is a perfect companion for a weekend business trip or a great getaway. The outside of the sleeve is 80% wool/ 20% polyester blend with natural leather accents.", "price"=>"50.0", "image"=>#<ActionDispatch::Http::UploadedFile:0x007fa6a8baf620 @tempfile=#<Tempfile:/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/RackMultipart20170103-83759-ct9zq9.jpg>, @original_filename="ipad2_case.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"listing[image]\"; filename=\"ipad2_case.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Listing", "id"=>"4"}
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Command :: file -b --mime '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/2e4ee1dad8c293c5ebfcd2b8ad5db98c20170103-83759-kszqj1.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/2e4ee1dad8c293c5ebfcd2b8ad5db98c20170103-83759-j1idda.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/2e4ee1dad8c293c5ebfcd2b8ad5db98c20170103-83759-j1idda.jpg[0]'
+Command :: convert '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/2e4ee1dad8c293c5ebfcd2b8ad5db98c20170103-83759-j1idda.jpg[0]' -auto-orient -resize "200" '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/7f9a3ba8a3c1795df82a422bb581921920170103-83759-6agvr6'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/2e4ee1dad8c293c5ebfcd2b8ad5db98c20170103-83759-j1idda.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/2e4ee1dad8c293c5ebfcd2b8ad5db98c20170103-83759-j1idda.jpg[0]'
+Command :: convert '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/2e4ee1dad8c293c5ebfcd2b8ad5db98c20170103-83759-j1idda.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/7f9a3ba8a3c1795df82a422bb581921920170103-83759-1v2cupg'
+Command :: file -b --mime '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/2e4ee1dad8c293c5ebfcd2b8ad5db98c20170103-83759-alzlou.jpg'
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "listings" SET "image_file_name" = ?, "image_content_type" = ?, "image_file_size" = ?, "image_updated_at" = ?, "updated_at" = ? WHERE "listings"."id" = ?[0m  [["image_file_name", "ipad2_case.jpg"], ["image_content_type", "image/jpeg"], ["image_file_size", 122826], ["image_updated_at", 2017-01-04 03:43:55 UTC], ["updated_at", 2017-01-04 03:43:55 UTC], ["id", 4]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/listings/4
+Completed 302 Found in 239ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/listings/4" for ::1 at 2017-01-03 22:43:55 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 58ms (Views: 54.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-03 22:43:57 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (9.4ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 64ms (Views: 60.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/listings/3/edit" for ::1 at 2017-01-03 22:44:03 -0500
+Processing by ListingsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering listings/edit.html.erb within layouts/application
+  Rendered listings/_form.html.erb (4.8ms)
+  Rendered listings/edit.html.erb within layouts/application (7.7ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 84ms (Views: 78.2ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/listings/3" for ::1 at 2017-01-03 22:44:05 -0500
+Processing by ListingsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tcdz8w5PuN4qqLONbGuVKjDXpICYR9HXRYScWoseMaz5twCEGwQMSRPGwpMBxvUpvl0Zx2VInWDQDrTUo70p4g==", "listing"=>{"name"=>"Loko Bird Print", "description"=>"A bird print named Rene\r\n\r\nImage size: 8x10\"\r\nProfessionally printed onto 8.5\" x 11\" Semi Gloss Paper\r\nWeight: 270g/m2", "price"=>"15.5"}, "commit"=>"Update Listing", "id"=>"3"}
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/listings/3
+Completed 302 Found in 4ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/listings/3" for ::1 at 2017-01-03 22:44:05 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 66ms (Views: 61.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/listings/3/edit" for ::1 at 2017-01-03 22:44:08 -0500
+Processing by ListingsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering listings/edit.html.erb within layouts/application
+  Rendered listings/_form.html.erb (3.6ms)
+  Rendered listings/edit.html.erb within layouts/application (6.2ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 63ms (Views: 57.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/listings/3" for ::1 at 2017-01-03 22:44:11 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mListing Load (0.8ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 61ms (Views: 53.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-03 22:44:12 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (7.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 90ms (Views: 88.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings/3/edit" for ::1 at 2017-01-03 22:44:15 -0500
+Processing by ListingsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering listings/edit.html.erb within layouts/application
+  Rendered listings/_form.html.erb (4.4ms)
+  Rendered listings/edit.html.erb within layouts/application (8.4ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 66ms (Views: 62.2ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/listings/3" for ::1 at 2017-01-03 22:44:22 -0500
+Processing by ListingsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MZsMXUXePDCLEZ1hv+if9DtFzTfwkhloi0/I5YZj4FJ9638qUJWIp7J/7H/SRf/3tc9wcA2dVd8exeBrrsD4HA==", "listing"=>{"name"=>"Loko Bird Print", "description"=>"A bird print named Rene\r\n\r\nImage size: 8x10\"\r\nProfessionally printed onto 8.5\" x 11\" Semi Gloss Paper\r\nWeight: 270g/m2", "price"=>"15.5", "image"=>#<ActionDispatch::Http::UploadedFile:0x007fa6a191ed18 @tempfile=#<Tempfile:/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/RackMultipart20170103-83759-14vicz3.jpg>, @original_filename="lokokoko_bird.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"listing[image]\"; filename=\"lokokoko_bird.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Listing", "id"=>"3"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+Command :: file -b --mime '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/20c65d8ada83f289eb095588f84a3aee20170103-83759-1y2t4ni.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/20c65d8ada83f289eb095588f84a3aee20170103-83759-doxwvc.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/20c65d8ada83f289eb095588f84a3aee20170103-83759-doxwvc.jpg[0]'
+Command :: convert '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/20c65d8ada83f289eb095588f84a3aee20170103-83759-doxwvc.jpg[0]' -auto-orient -resize "200" '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/20999e3406a864acbf5829af0518306420170103-83759-49gvg8'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/20c65d8ada83f289eb095588f84a3aee20170103-83759-doxwvc.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/20c65d8ada83f289eb095588f84a3aee20170103-83759-doxwvc.jpg[0]'
+Command :: convert '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/20c65d8ada83f289eb095588f84a3aee20170103-83759-doxwvc.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/20999e3406a864acbf5829af0518306420170103-83759-1wgumic'
+Command :: file -b --mime '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/20c65d8ada83f289eb095588f84a3aee20170103-83759-c75cr4.jpg'
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "listings" SET "image_file_name" = ?, "image_content_type" = ?, "image_file_size" = ?, "image_updated_at" = ?, "updated_at" = ? WHERE "listings"."id" = ?[0m  [["image_file_name", "lokokoko_bird.jpg"], ["image_content_type", "image/jpeg"], ["image_file_size", 107095], ["image_updated_at", 2017-01-04 03:44:22 UTC], ["updated_at", 2017-01-04 03:44:22 UTC], ["id", 3]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/listings/3
+Completed 302 Found in 221ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/listings/3" for ::1 at 2017-01-03 22:44:22 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mListing Load (0.6ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (9.8ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 59ms (Views: 55.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-03 22:44:24 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (7.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 53ms (Views: 51.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings/5/edit" for ::1 at 2017-01-03 22:44:26 -0500
+Processing by ListingsController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering listings/edit.html.erb within layouts/application
+  Rendered listings/_form.html.erb (4.7ms)
+  Rendered listings/edit.html.erb within layouts/application (7.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 55ms (Views: 52.3ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/listings/5" for ::1 at 2017-01-03 22:44:33 -0500
+Processing by ListingsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yd6Jsw7pjjslJacZOOgVTPWVZxpOO+qUY6uXciR7ZOCcrjT6lEeE7qF5Q1jxmrEvkAbcRVu7mM5VAKM5UaQUPQ==", "listing"=>{"name"=>"So True Necklace", "description"=>"What's \"so true\" about you? Your heart? Your love? Your dreams? This necklace celebrates you and what makes you special!", "price"=>"25.99", "image"=>#<ActionDispatch::Http::UploadedFile:0x007fa6a49f5bd0 @tempfile=#<Tempfile:/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/RackMultipart20170103-83759-idupox.jpg>, @original_filename="true_necklace.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"listing[image]\"; filename=\"true_necklace.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Listing", "id"=>"5"}
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Command :: file -b --mime '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/d32c8f9d6e003f0fe27b5be32e75e67420170103-83759-h4me6u.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/d32c8f9d6e003f0fe27b5be32e75e67420170103-83759-1lhlh17.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/d32c8f9d6e003f0fe27b5be32e75e67420170103-83759-1lhlh17.jpg[0]'
+Command :: convert '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/d32c8f9d6e003f0fe27b5be32e75e67420170103-83759-1lhlh17.jpg[0]' -auto-orient -resize "200" '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/964036410a3865102a0d34f0f81d2e3a20170103-83759-1icv83f'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/d32c8f9d6e003f0fe27b5be32e75e67420170103-83759-1lhlh17.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/d32c8f9d6e003f0fe27b5be32e75e67420170103-83759-1lhlh17.jpg[0]'
+Command :: convert '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/d32c8f9d6e003f0fe27b5be32e75e67420170103-83759-1lhlh17.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/964036410a3865102a0d34f0f81d2e3a20170103-83759-1r8hm2n'
+Command :: file -b --mime '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/d32c8f9d6e003f0fe27b5be32e75e67420170103-83759-16evym2.jpg'
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "listings" SET "image_file_name" = ?, "image_content_type" = ?, "image_file_size" = ?, "image_updated_at" = ?, "updated_at" = ? WHERE "listings"."id" = ?[0m  [["image_file_name", "true_necklace.jpg"], ["image_content_type", "image/jpeg"], ["image_file_size", 125147], ["image_updated_at", 2017-01-04 03:44:33 UTC], ["updated_at", 2017-01-04 03:44:33 UTC], ["id", 5]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/listings/5
+Completed 302 Found in 200ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/listings/5" for ::1 at 2017-01-03 22:44:33 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 46ms (Views: 43.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-03 22:44:34 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (8.7ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 79ms (Views: 76.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/listings/6/edit" for ::1 at 2017-01-03 22:44:37 -0500
+Processing by ListingsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering listings/edit.html.erb within layouts/application
+  Rendered listings/_form.html.erb (4.5ms)
+  Rendered listings/edit.html.erb within layouts/application (7.5ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 57ms (Views: 54.1ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/listings/6" for ::1 at 2017-01-03 22:44:42 -0500
+Processing by ListingsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dkjVpkTqn7/VDiMLT2IgxPYpdLzggMScTi2FqL4gSBhS8efCHn0EIyzrg3PiuBJYIocCBQdgI6lAaiFa96M0Yw==", "listing"=>{"name"=>"Green Bamboo Wall Clock", "description"=>"Green bamboo laminate on MDF with shaped cutout pattern backed in white MDF.\r\nDimensions: 10\" dia. x 1.25\"", "price"=>"59.95", "image"=>#<ActionDispatch::Http::UploadedFile:0x007fa6a64e38c0 @tempfile=#<Tempfile:/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/RackMultipart20170103-83759-ks7tl2.jpg>, @original_filename="green_clock.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"listing[image]\"; filename=\"green_clock.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Update Listing", "id"=>"6"}
+  [1m[36mListing Load (1.3ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Command :: file -b --mime '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/7bf73d52886fc1965866df0ac1dff5b220170103-83759-ga7xf7.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/7bf73d52886fc1965866df0ac1dff5b220170103-83759-1ovc5zc.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/7bf73d52886fc1965866df0ac1dff5b220170103-83759-1ovc5zc.jpg[0]'
+Command :: convert '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/7bf73d52886fc1965866df0ac1dff5b220170103-83759-1ovc5zc.jpg[0]' -auto-orient -resize "200" '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/187ff3f3e3847fddddf0c08e6bdf9fe720170103-83759-1o9z6x'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/7bf73d52886fc1965866df0ac1dff5b220170103-83759-1ovc5zc.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/7bf73d52886fc1965866df0ac1dff5b220170103-83759-1ovc5zc.jpg[0]'
+Command :: convert '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/7bf73d52886fc1965866df0ac1dff5b220170103-83759-1ovc5zc.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/187ff3f3e3847fddddf0c08e6bdf9fe720170103-83759-uagej2'
+Command :: file -b --mime '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/7bf73d52886fc1965866df0ac1dff5b220170103-83759-1frk3ek.jpg'
+  [1m[35mSQL (0.7ms)[0m  [1m[33mUPDATE "listings" SET "image_file_name" = ?, "image_content_type" = ?, "image_file_size" = ?, "image_updated_at" = ?, "updated_at" = ? WHERE "listings"."id" = ?[0m  [["image_file_name", "green_clock.jpg"], ["image_content_type", "image/jpeg"], ["image_file_size", 168710], ["image_updated_at", 2017-01-04 03:44:42 UTC], ["updated_at", 2017-01-04 03:44:42 UTC], ["id", 6]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/listings/6
+Completed 302 Found in 230ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/listings/6" for ::1 at 2017-01-03 22:44:42 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 55ms (Views: 52.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-03 22:44:44 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.4ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (8.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 78ms (Views: 75.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-03 22:45:44 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 67ms (Views: 62.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 22:45:46 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 37ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 22:45:50 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.4ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (6.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 41ms (Views: 38.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pages/contact" for ::1 at 2017-01-03 22:45:51 -0500
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 52ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 22:45:53 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 72ms (Views: 69.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 22:45:54 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (8.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 64ms (Views: 61.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 22:45:58 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 50ms (Views: 47.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-03 22:45:59 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 84ms (Views: 81.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 22:45:59 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (6.5ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 70ms (Views: 66.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 22:46:01 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.4ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (12.8ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 76ms (Views: 72.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/listings/2" for ::1 at 2017-01-03 22:46:06 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 50ms (Views: 46.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 23:19:16 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 71ms (Views: 67.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 23:24:02 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (9.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 56ms (Views: 53.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 23:24:24 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (7.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 61ms (Views: 59.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 23:33:04 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 49ms (Views: 46.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings/2" for ::1 at 2017-01-03 23:33:22 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 66ms (Views: 59.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/listings/2" for ::1 at 2017-01-03 23:35:45 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 41ms (Views: 38.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/listings/2" for ::1 at 2017-01-03 23:37:33 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 50ms (Views: 46.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings/2" for ::1 at 2017-01-03 23:37:43 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (1.1ms)
+Completed 200 OK in 62ms (Views: 57.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings/2" for ::1 at 2017-01-03 23:38:48 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 66ms (Views: 62.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings/2" for ::1 at 2017-01-03 23:38:49 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 86ms (Views: 82.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-03 23:38:52 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (55.8ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 126ms (Views: 122.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings/2" for ::1 at 2017-01-03 23:38:55 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mListing Load (0.6ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 49ms (Views: 43.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/listings/2" for ::1 at 2017-01-03 23:39:18 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 56ms (Views: 53.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-03 23:39:36 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (6.9ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 66ms (Views: 60.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-04 06:21:08 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 50ms (Views: 48.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-04 06:21:09 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (6.4ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 65ms (Views: 62.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-04 06:21:10 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (6.6ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 47ms (Views: 45.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-04 06:23:53 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (10.8ms)
+Started GET "/listings" for ::1 at 2017-01-04 06:23:54 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.6ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 9228ms (Views: 9202.5ms | ActiveRecord: 0.3ms)
+
+
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 8050ms (Views: 8046.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-04 06:24:06 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (8.6ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 82ms (Views: 77.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 06:27:04 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.4ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (7.7ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 106ms (Views: 101.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 06:28:01 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (7.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 2653ms (Views: 2650.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 06:28:05 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (5.4ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 64ms (Views: 61.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 06:28:06 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (8.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 50ms (Views: 48.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 06:28:29 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_header.html.erb (9.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 43ms (Views: 41.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 06:28:30 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (5.9ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 77ms (Views: 74.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 06:28:30 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (5.8ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 52ms (Views: 49.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 06:30:46 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (10.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 2467ms (Views: 2463.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 06:31:05 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (5.9ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 2374ms (Views: 2371.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 06:32:35 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 2563ms (Views: 2560.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 06:32:47 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 35ms (Views: 33.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 06:32:48 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 58ms (Views: 55.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 06:32:48 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (5.9ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 58ms (Views: 56.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 06:32:49 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 40ms (Views: 37.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 06:33:00 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (5.4ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 1568ms (Views: 1565.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 06:33:45 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 1902ms (Views: 1900.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 06:35:19 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 2465ms (Views: 2462.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/listings/new" for ::1 at 2017-01-04 06:37:19 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ListingsController#new as HTML
+  Rendering listings/new.html.erb within layouts/application
+  Rendered listings/_form.html.erb (83.6ms)
+  Rendered listings/new.html.erb within layouts/application (88.0ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 1211ms (Views: 1180.2ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/listings" for ::1 at 2017-01-04 06:37:56 -0500
+Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mh9grmEKiJvipvqJUTbuaoaHIt0vO/3Sbge28xRrb7bkNo3MjHQwvCSnFQQBzn82GA0yG5u/N2TZkBek4o4A5w==", "listing"=>{"name"=>"Lighthouse at Sunset", "description"=>"This piece is professionally printed on matte photo paper using archival quality inks and paper. This peaceful seascape was originally painted in acrylics on canvas.", "price"=>"20.00", "image"=>#<ActionDispatch::Http::UploadedFile:0x007f891a580318 @tempfile=#<Tempfile:/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/RackMultipart20170104-84957-1ythsv9.jpg>, @original_filename="lighthouse.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"listing[image]\"; filename=\"lighthouse.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Listing"}
+Command :: file -b --mime '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/fad0ce221c826eede253cb0956ca070020170104-84957-v0b6qj.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/fad0ce221c826eede253cb0956ca070020170104-84957-1lmddfv.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/fad0ce221c826eede253cb0956ca070020170104-84957-1lmddfv.jpg[0]'
+Command :: convert '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/fad0ce221c826eede253cb0956ca070020170104-84957-1lmddfv.jpg[0]' -auto-orient -resize "200" '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/92411dd62a600948f6f2647747fca94a20170104-84957-rc3y1a'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/fad0ce221c826eede253cb0956ca070020170104-84957-1lmddfv.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/fad0ce221c826eede253cb0956ca070020170104-84957-1lmddfv.jpg[0]'
+Command :: convert '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/fad0ce221c826eede253cb0956ca070020170104-84957-1lmddfv.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/92411dd62a600948f6f2647747fca94a20170104-84957-1ku5myh'
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+Command :: file -b --mime '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/fad0ce221c826eede253cb0956ca070020170104-84957-12123rr.jpg'
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "listings" ("name", "description", "price", "created_at", "updated_at", "image_file_name", "image_content_type", "image_file_size", "image_updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Lighthouse at Sunset"], ["description", "This piece is professionally printed on matte photo paper using archival quality inks and paper. This peaceful seascape was originally painted in acrylics on canvas."], ["price", #<BigDecimal:7f891a2484c0,'0.2E2',9(18)>], ["created_at", 2017-01-04 11:37:57 UTC], ["updated_at", 2017-01-04 11:37:57 UTC], ["image_file_name", "lighthouse.jpg"], ["image_content_type", "image/jpeg"], ["image_file_size", 214558], ["image_updated_at", 2017-01-04 11:37:57 UTC]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/listings/7
+Completed 302 Found in 299ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/listings/7" for ::1 at 2017-01-04 06:37:57 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (12.4ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 86ms (Views: 77.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-04 06:38:00 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (14.6ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 69ms (Views: 66.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-04 06:40:25 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (8.4ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 2687ms (Views: 2683.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 06:40:39 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (10.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 74ms (Views: 67.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/listings/3" for ::1 at 2017-01-04 06:40:43 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 67ms (Views: 59.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings/3" for ::1 at 2017-01-04 06:42:09 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 2389ms (Views: 2386.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-04 06:42:37 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (7.8ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 60ms (Views: 57.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-04 06:43:09 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 72ms (Views: 68.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/contact" for ::1 at 2017-01-04 06:43:10 -0500
+Processing by PagesController#contact as HTML
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 96ms (Views: 87.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-04 06:43:12 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 66ms (Views: 55.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 06:43:13 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (14.4ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 109ms (Views: 100.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings/4" for ::1 at 2017-01-04 06:43:24 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 58ms (Views: 55.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pages/about" for ::1 at 2017-01-04 06:56:46 -0500
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 75ms (Views: 62.4ms | ActiveRecord: 0.0ms)
+
+
