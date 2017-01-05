@@ -5311,3 +5311,430 @@ Completed 200 OK in 71ms (Views: 65.2ms | ActiveRecord: 0.5ms)
 
 
   [1m[35mSQL (6.9ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddUserIdToListings (20170105152236)
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.9ms)[0m  [1m[35mALTER TABLE "listings" ADD "user_id" integer[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170105152236"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+Started GET "/" for ::1 at 2017-01-05 10:30:20 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (95.0ms)
+  Rendered layouts/_header.html.erb (10.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 738ms (Views: 682.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2017-01-05 10:30:32 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (44.1ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 123ms (Views: 98.8ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/users" for ::1 at 2017-01-05 10:30:41 -0500
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yhKf3LirOhiXPlUEekAei1ept0JpKfuHEh6LelrquF0vGNYHiLhdeEFnocajaiZztWYC2+2iBYqmDZiwr78Tkg==", "user"=>{"name"=>"Art Rodriguez", "email"=>"art.rodriguez@live.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "art.rodriguez@live.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["email", "art.rodriguez@live.com"], ["encrypted_password", "$2a$11$EXH1B0O9fievhJNxdsQC4.9XR6uyeiswfnWOsjHj01IklJReOWMLW"], ["created_at", 2017-01-05 15:30:41 UTC], ["updated_at", 2017-01-05 15:30:41 UTC], ["name", "Art Rodriguez"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = ?, "current_sign_in_at" = ?, "last_sign_in_at" = ?, "current_sign_in_ip" = ?, "last_sign_in_ip" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["sign_in_count", 1], ["current_sign_in_at", 2017-01-05 15:30:41 UTC], ["last_sign_in_at", 2017-01-05 15:30:41 UTC], ["current_sign_in_ip", "::1"], ["last_sign_in_ip", "::1"], ["updated_at", 2017-01-05 15:30:41 UTC], ["id", 3]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 239ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/" for ::1 at 2017-01-05 10:30:41 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (8.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (3.9ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 104ms (Views: 101.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/listings/new" for ::1 at 2017-01-05 10:30:47 -0500
+Processing by ListingsController#new as HTML
+  Rendering listings/new.html.erb within layouts/application
+  Rendered listings/_form.html.erb (11.2ms)
+  Rendered listings/new.html.erb within layouts/application (13.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (2.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 82ms (Views: 73.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/listings" for ::1 at 2017-01-05 10:31:08 -0500
+Processing by ListingsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jgTrnovgr7ciaThFPdjJodr7x7gk4/zhIDOJiTp4HGG+Gb21xiH1Fc392W/pDAs5z/JDjeWZkrFRXb2MpQuBjw==", "listing"=>{"name"=>"Test 7", "description"=>"This is a test", "price"=>"9.99", "image"=>#<ActionDispatch::Http::UploadedFile:0x007f85f8a03c48 @tempfile=#<Tempfile:/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/RackMultipart20170105-97128-1b6p23d.jpg>, @original_filename="true_necklace.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"listing[image]\"; filename=\"true_necklace.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Listing"}
+Command :: file -b --mime '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/d32c8f9d6e003f0fe27b5be32e75e67420170105-97128-1qh7xn4.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/d32c8f9d6e003f0fe27b5be32e75e67420170105-97128-14q025h.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/d32c8f9d6e003f0fe27b5be32e75e67420170105-97128-14q025h.jpg[0]'
+Command :: convert '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/d32c8f9d6e003f0fe27b5be32e75e67420170105-97128-14q025h.jpg[0]' -auto-orient -resize "200" '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/55682c00bced3184beb705b09101504c20170105-97128-18qc1rm'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/d32c8f9d6e003f0fe27b5be32e75e67420170105-97128-14q025h.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/d32c8f9d6e003f0fe27b5be32e75e67420170105-97128-14q025h.jpg[0]'
+Command :: convert '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/d32c8f9d6e003f0fe27b5be32e75e67420170105-97128-14q025h.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/55682c00bced3184beb705b09101504c20170105-97128-1ogr54s'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Command :: file -b --mime '/var/folders/jy/17p_6wlx7yqcfkbz4bxd1b940000gn/T/d32c8f9d6e003f0fe27b5be32e75e67420170105-97128-sw52ue.jpg'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "listings" ("name", "description", "price", "created_at", "updated_at", "image_file_name", "image_content_type", "image_file_size", "image_updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Test 7"], ["description", "This is a test"], ["price", #<BigDecimal:7f85f4f134d0,'0.999E1',18(18)>], ["created_at", 2017-01-05 15:31:08 UTC], ["updated_at", 2017-01-05 15:31:08 UTC], ["image_file_name", "true_necklace.jpg"], ["image_content_type", "image/jpeg"], ["image_file_size", 125147], ["image_updated_at", 2017-01-05 15:31:08 UTC], ["user_id", 3]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/listings/10
+Completed 302 Found in 624ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/listings/10" for ::1 at 2017-01-05 10:31:08 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (4.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (3.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 89ms (Views: 81.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/listings/10" for ::1 at 2017-01-05 10:33:16 -0500
+Processing by ListingsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering listings/show.html.erb within layouts/application
+  Rendered listings/show.html.erb within layouts/application (2.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (3.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 86ms (Views: 83.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-01-05 10:33:26 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (11.6ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+     7:           <div class="caption">
+     8:             <h3><%= listing.name %></h3>
+     9:             <p><%= number_to_currency(listing.price) %></p>
+    10:             <p><%= listing.user.name %></p>
+    11:             <%= link_to 'Show', listing, class: "btn btn-link" %>
+    12:             <%= link_to 'Edit', edit_listing_path(listing), class: "btn btn-link" %>
+    13:             <%= link_to 'Destroy', listing, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-link" %>
+  
+app/views/listings/index.html.erb:10:in `block in _app_views_listings_index_html_erb___1025108947691270660_70106665963700'
+app/views/listings/index.html.erb:3:in `_app_views_listings_index_html_erb___1025108947691270660_70106665963700'
+  Rendering /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.6ms)
+  Rendering /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (90.8ms)
+Started GET "/" for ::1 at 2017-01-05 10:34:27 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (9.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 55ms (Views: 52.1ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/listings/2" for ::1 at 2017-01-05 10:34:32 -0500
+Processing by ListingsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"rgt0v2ep6xtztSrT+WO6a10ivmLtdwzc0U/C6l/08jyYGxES9LP8DW5XfhhXe6vVWC4WLakwW+Vz4nzHKtttNw==", "id"=>"2"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[31mDELETE FROM "listings" WHERE "listings"."id" = ?[0m  [["id", 2]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+[paperclip] deleting /Users/admin/etsydemo/public/system/listings/images/000/000/002/original/hair_tassles.jpg
+[paperclip] deleting /Users/admin/etsydemo/public/system/listings/images/000/000/002/medium/hair_tassles.jpg
+[paperclip] deleting /Users/admin/etsydemo/public/system/listings/images/000/000/002/thumb/hair_tassles.jpg
+Redirected to http://localhost:3000/listings
+Completed 302 Found in 10ms (ActiveRecord: 2.6ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-05 10:34:32 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (6.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (2.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 59ms (Views: 56.8ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/listings/4" for ::1 at 2017-01-05 10:34:34 -0500
+Processing by ListingsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"y8p4rcGUA2bsnhVErRvmZnzutGow3yOesXE29UMxLTX92h0AUo4UcPF8QY8DA/fYeeIcJXSYdKcT3IjYNh6yPg==", "id"=>"4"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[31mDELETE FROM "listings" WHERE "listings"."id" = ?[0m  [["id", 4]]
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+[paperclip] deleting /Users/admin/etsydemo/public/system/listings/images/000/000/004/original/ipad2_case.jpg
+[paperclip] deleting /Users/admin/etsydemo/public/system/listings/images/000/000/004/medium/ipad2_case.jpg
+[paperclip] deleting /Users/admin/etsydemo/public/system/listings/images/000/000/004/thumb/ipad2_case.jpg
+Redirected to http://localhost:3000/listings
+Completed 302 Found in 15ms (ActiveRecord: 3.5ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-05 10:34:34 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (9.8ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (3.0ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 66ms (Views: 61.5ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/listings/3" for ::1 at 2017-01-05 10:34:36 -0500
+Processing by ListingsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"CCfCEz8G4OLiFOWgoNMaPeT2/7FQZA5uyOOzgoPKfQk+N6e+rBz39P/2sWsOywuD4fpX/hQjWVdqTg2v9uXiAg==", "id"=>"3"}
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM "listings" WHERE "listings"."id" = ?[0m  [["id", 3]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+[paperclip] deleting /Users/admin/etsydemo/public/system/listings/images/000/000/003/original/lokokoko_bird.jpg
+[paperclip] deleting /Users/admin/etsydemo/public/system/listings/images/000/000/003/medium/lokokoko_bird.jpg
+[paperclip] deleting /Users/admin/etsydemo/public/system/listings/images/000/000/003/thumb/lokokoko_bird.jpg
+Redirected to http://localhost:3000/listings
+Completed 302 Found in 9ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-05 10:34:36 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (5.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (2.2ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 52ms (Views: 49.9ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/listings/5" for ::1 at 2017-01-05 10:34:38 -0500
+Processing by ListingsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"zt5utIANHdLO9eS4inR6guVHL50rDsmh7AD245I3vqb4zgsZExcKxNMXsHMkbGs84EuH0m9JnphOrUjO5xghrQ==", "id"=>"5"}
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM "listings" WHERE "listings"."id" = ?[0m  [["id", 5]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+[paperclip] deleting /Users/admin/etsydemo/public/system/listings/images/000/000/005/original/true_necklace.jpg
+[paperclip] deleting /Users/admin/etsydemo/public/system/listings/images/000/000/005/medium/true_necklace.jpg
+[paperclip] deleting /Users/admin/etsydemo/public/system/listings/images/000/000/005/thumb/true_necklace.jpg
+Redirected to http://localhost:3000/listings
+Completed 302 Found in 9ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-05 10:34:38 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (6.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (2.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 67ms (Views: 64.1ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/listings/6" for ::1 at 2017-01-05 10:34:40 -0500
+Processing by ListingsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"t/FT6VXRAyKd74/eYDJCLE+RNUm+Br2yxlpAyxKzJ6OB4TZExssUNIAN2xXOKlOSSp2dBvpB6otk9/7mZ5y4qA==", "id"=>"6"}
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM "listings" WHERE "listings"."id" = ?[0m  [["id", 6]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+[paperclip] deleting /Users/admin/etsydemo/public/system/listings/images/000/000/006/original/green_clock.jpg
+[paperclip] deleting /Users/admin/etsydemo/public/system/listings/images/000/000/006/medium/green_clock.jpg
+[paperclip] deleting /Users/admin/etsydemo/public/system/listings/images/000/000/006/thumb/green_clock.jpg
+Redirected to http://localhost:3000/listings
+Completed 302 Found in 12ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-05 10:34:41 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (4.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 62ms (Views: 57.4ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/listings/9" for ::1 at 2017-01-05 10:34:43 -0500
+Processing by ListingsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"NZnvJyEiPPlj6g18wSQPx0GETeLFPsGki/O9QG/OW64DiYqKsjgr734IWbdvPB55RIjlrYF5lp0pXgNtGuHEpQ==", "id"=>"9"}
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[31mDELETE FROM "listings" WHERE "listings"."id" = ?[0m  [["id", 9]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+[paperclip] deleting /Users/admin/etsydemo/public/system/listings/images/000/000/009/original/no_image.jpeg
+[paperclip] deleting /Users/admin/etsydemo/public/system/listings/images/000/000/009/medium/no_image.jpeg
+[paperclip] deleting /Users/admin/etsydemo/public/system/listings/images/000/000/009/thumb/no_image.jpeg
+Redirected to http://localhost:3000/listings
+Completed 302 Found in 12ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-05 10:34:43 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (4.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 57ms (Views: 54.9ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/listings/7" for ::1 at 2017-01-05 10:34:45 -0500
+Processing by ListingsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ca/SgsdOjeSW/HG0PPWG7J+53e/V4dha0yC2u7CqwshHv7cvVFSa8oseJX+S7ZdSmrV1oJGmj2NxjQiWxYVdww==", "id"=>"7"}
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT  "listings".* FROM "listings" WHERE "listings"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[31mDELETE FROM "listings" WHERE "listings"."id" = ?[0m  [["id", 7]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+[paperclip] deleting /Users/admin/etsydemo/public/system/listings/images/000/000/007/original/lighthouse.jpg
+[paperclip] deleting /Users/admin/etsydemo/public/system/listings/images/000/000/007/medium/lighthouse.jpg
+[paperclip] deleting /Users/admin/etsydemo/public/system/listings/images/000/000/007/thumb/lighthouse.jpg
+Redirected to http://localhost:3000/listings
+Completed 302 Found in 12ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-05 10:34:45 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.5ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (5.4ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (5.2ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 90ms (Views: 86.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-05 10:34:47 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  Rendered listings/index.html.erb within layouts/application (3.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (3.0ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 86ms (Views: 83.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-05 10:34:52 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered listings/index.html.erb within layouts/application (4.8ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (3.1ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 58ms (Views: 54.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/listings" for ::1 at 2017-01-05 10:36:01 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  Rendered listings/index.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/admin/etsydemo/app/views/listings/index.html.erb:11: syntax error, unexpected tIDENTIFIER, expecting ')'
+...to 'Show', listing, class: "btn btn-link" );@output_buffer.s...
+...                               ^
+/Users/admin/etsydemo/app/views/listings/index.html.erb:11: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+... listing, class: "btn btn-link" );@output_buffer.safe_append...
+...                               ^
+/Users/admin/etsydemo/app/views/listings/index.html.erb:12: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ting_path(listing), class: "btn btn-link" );@output_buffer.s...
+...                               ^
+/Users/admin/etsydemo/app/views/listings/index.html.erb:12: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...listing), class: "btn btn-link" );@output_buffer.safe_append...
+...                               ^
+/Users/admin/etsydemo/app/views/listings/index.html.erb:13: syntax error, unexpected tIDENTIFIER, expecting ')'
+... 'Are you sure?' }, class: "btn btn-link" );@output_buffer.s...
+...                               ^
+/Users/admin/etsydemo/app/views/listings/index.html.erb:13: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...sure?' }, class: "btn btn-link" );@output_buffer.safe_append...
+...                               ^
+/Users/admin/etsydemo/app/views/listings/index.html.erb:22: syntax error, unexpected tIDENTIFIER, expecting ')'
+..., new_listing_path, class: "btn btn-link" );@output_buffer.s...
+...                               ^
+/Users/admin/etsydemo/app/views/listings/index.html.erb:22: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...ing_path, class: "btn btn-link" );@output_buffer.safe_append...
+...                               ^
+/Users/admin/etsydemo/app/views/listings/index.html.erb:22: unterminated string meets end of file):
+  
+app/views/listings/index.html.erb:11: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/listings/index.html.erb:11: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/listings/index.html.erb:12: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/listings/index.html.erb:12: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/listings/index.html.erb:13: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/listings/index.html.erb:13: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/listings/index.html.erb:22: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/listings/index.html.erb:22: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/listings/index.html.erb:22: unterminated string meets end of file
+  Rendering /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.0ms)
+  Rendering /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendering /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/admin/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (90.3ms)
+Started GET "/listings" for ::1 at 2017-01-05 10:36:12 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.1ms)[0m  [1m[34mSELECT "listings".* FROM "listings"[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered listings/index.html.erb within layouts/application (3.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 58ms (Views: 55.8ms | ActiveRecord: 0.4ms)
+
+
