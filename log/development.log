@@ -7459,3 +7459,204 @@ Processing by ListingsController#index as HTML
 Completed 200 OK in 57ms (Views: 54.5ms | ActiveRecord: 0.6ms)
 
 
+Started GET "/" for ::1 at 2017-01-06 16:58:17 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings" ORDER BY created_at DESC[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered listings/index.html.erb within layouts/application (11.2ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 46ms (Views: 42.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-01-06 17:02:30 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 64ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2017-01-06 17:02:36 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rpu5vma+ux+vOoDZAxC0lNt3wDdzXTT2Uc08G5mMbase08rEvIFKCqTfE6IswdbrjH3uoTxq+iJR11WDfAyBKw==", "user"=>{"email"=>"art.rodriguez@live.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "art.rodriguez@live.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.6ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = ?, "last_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["current_sign_in_at", 2017-01-06 22:02:36 UTC], ["last_sign_in_at", 2017-01-06 21:42:44 UTC], ["sign_in_count", 5], ["updated_at", 2017-01-06 22:02:36 UTC], ["id", 3]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 178ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/" for ::1 at 2017-01-06 17:02:36 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings" ORDER BY created_at DESC[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered listings/index.html.erb within layouts/application (12.6ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 46ms (Views: 43.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/seller" for ::1 at 2017-01-06 17:02:39 -0500
+Processing by ListingsController#seller as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering listings/seller.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings" WHERE "listings"."user_id" = 3 ORDER BY created_at DESC[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered listings/seller.html.erb within layouts/application (9.4ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 45ms (Views: 40.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2017-01-06 17:09:39 -0500
+Processing by ListingsController#index as HTML
+  Rendering listings/index.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings" ORDER BY created_at DESC[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered listings/index.html.erb within layouts/application (23.8ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 95ms (Views: 87.3ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/seller" for ::1 at 2017-01-06 17:09:42 -0500
+Processing by ListingsController#seller as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering listings/seller.html.erb within layouts/application
+  [1m[36mListing Load (0.5ms)[0m  [1m[34mSELECT "listings".* FROM "listings" WHERE "listings"."user_id" = 3 ORDER BY created_at DESC[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered listings/seller.html.erb within layouts/application (23.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 73ms (Views: 64.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/seller" for ::1 at 2017-01-06 17:10:44 -0500
+Processing by ListingsController#seller as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering listings/seller.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings" WHERE "listings"."user_id" = 3 ORDER BY created_at DESC[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered listings/seller.html.erb within layouts/application (14.5ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 63ms (Views: 59.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/seller" for ::1 at 2017-01-06 17:11:24 -0500
+Processing by ListingsController#seller as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering listings/seller.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings" WHERE "listings"."user_id" = 3 ORDER BY created_at DESC[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered listings/seller.html.erb within layouts/application (15.3ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 72ms (Views: 68.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/seller" for ::1 at 2017-01-06 17:11:54 -0500
+Processing by ListingsController#seller as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering listings/seller.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings" WHERE "listings"."user_id" = 3 ORDER BY created_at DESC[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered listings/seller.html.erb within layouts/application (16.3ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 72ms (Views: 68.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/seller" for ::1 at 2017-01-06 17:12:15 -0500
+Processing by ListingsController#seller as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering listings/seller.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings" WHERE "listings"."user_id" = 3 ORDER BY created_at DESC[0m
+  Rendered listings/seller.html.erb within layouts/application (7.4ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 69ms (Views: 65.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/seller" for ::1 at 2017-01-06 17:15:05 -0500
+Processing by ListingsController#seller as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering listings/seller.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings" WHERE "listings"."user_id" = 3 ORDER BY created_at DESC[0m
+  Rendered listings/seller.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 50ms (Views: 44.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/seller" for ::1 at 2017-01-06 17:15:20 -0500
+Processing by ListingsController#seller as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering listings/seller.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings" WHERE "listings"."user_id" = 3 ORDER BY created_at DESC[0m
+  Rendered listings/seller.html.erb within layouts/application (7.7ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 52ms (Views: 48.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/seller" for ::1 at 2017-01-06 17:17:00 -0500
+Processing by ListingsController#seller as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering listings/seller.html.erb within layouts/application
+  [1m[36mListing Load (0.3ms)[0m  [1m[34mSELECT "listings".* FROM "listings" WHERE "listings"."user_id" = 3 ORDER BY created_at DESC[0m
+  Rendered listings/seller.html.erb within layouts/application (6.9ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 64ms (Views: 60.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/seller" for ::1 at 2017-01-06 17:18:16 -0500
+Processing by ListingsController#seller as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering listings/seller.html.erb within layouts/application
+  [1m[36mListing Load (0.2ms)[0m  [1m[34mSELECT "listings".* FROM "listings" WHERE "listings"."user_id" = 3 ORDER BY created_at DESC[0m
+  Rendered listings/seller.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 51ms (Views: 47.5ms | ActiveRecord: 0.4ms)
+
+
